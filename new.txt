@@ -1,0 +1,18 @@
+ new.txt
+ 
+   4 dir -a
+   5 dir
+   6 ls -a
+   7 git status
+   8 git add testing.py
+   9 git add Testing.py
+  10 git status
+  11 rm testing.py
+  12 dir
+  13 git  status
+  14 git restore testing.py
+  15 git restore Testing.py
+  16 git status
+  17 git commit -m "file added to tracked"
+  18 git status
+  19 python Testing.py
